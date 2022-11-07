@@ -11,7 +11,7 @@ const QuestionCard = () => {
       .then((data) => setQuizs(data));
   }, []);
 
-console.log(quizs)
+// console.log(quizs)
   return (
   
 				<>
@@ -27,6 +27,7 @@ console.log(quizs)
             <div className='grid sm:grid=cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
                 {
                     quizs.map(quiz => <QuizResult
+                    key={quiz._id}
                       quiz={quiz}
                       ></QuizResult>)
                 }

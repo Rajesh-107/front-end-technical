@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Navber = () => {
   return (
     <nav
@@ -32,7 +33,7 @@ const Navber = () => {
       </svg>
     </button>
     <div class="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent1">
-      <a class="text-xl text-white pr-2 font-semibold" href="#">Navbar</a>
+      <a class="text-xl text-white pr-2 font-semibold" href="#"><img src="" alt=""/> </a>
       
       <ul class="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
         <li class="nav-item p-2">
